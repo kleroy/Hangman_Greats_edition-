@@ -1,0 +1,199 @@
+@font-face {
+    font-family: lobster;
+    src: url(https://fonts.googleapis.com/css?family=Lobster);
+	}
+
+
+
+body {
+	background-image: url(../images/music_bckgr_05.jpg);
+	font-family: future;
+	position: relative;
+	overflow: hidden;
+	clear:both;
+	width: 350px; 
+	height: 600px; 
+	margin:20px auto 0;
+	color: #000;
+	text-shadow: 1px 1px #ccc;
+	border:solid #000 1px;
+	box-shadow: 2px 2px 5px #000;
+}
+
+header {
+	position: relative;
+	border-bottom: solid #000 1px; 
+	height: 75px;
+	background-color: rgb(7, 7, 7);
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	/*background-image: url("../images/mylogo.png");*/
+	background-position: 100px -100px;
+}
+
+h1 {
+	position: absolute;
+	top:25px;
+	width:100%;
+	font-size: 20px;
+	text-align: center;
+	display: none;	
+}
+
+h3 {font-size: 25px;}
+
+main {
+	position: relative;
+	background-image: url(../images/booth.jpg);
+	background-size: 800px;
+	background-position: -210px -20px;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-align: justify;
+}
+
+.theGame {
+	background-color: white;
+}
+
+#logo {
+	width: 300px;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.wrapper {
+	padding: 55px 5px 0; 
+	margin: 0 auto; 
+	display: block;
+}
+
+.float-l {float: left;}
+
+.float-r {float: right;}
+
+.txt-center {text-align: center;}
+
+.score {width: 150px;}
+
+#wins {
+	padding-top: 25px;
+	padding-left: 10px;
+	top: 25px;
+	left: 0;
+}
+
+#losses {
+	padding-top: 25px;
+	padding-right: 10px;
+	top: 25px;
+	right:0;
+}
+
+#info{
+	position: absolute;
+	display: none;
+	top:0;
+	left:0;
+	height: 483px;
+	width: 348px;
+	/*background-image: url(../images/gameBackground.jpg);*/
+	background-size: 800px;
+	background-position: -210px -20px;
+}
+
+#name {
+	padding-top: 20px;
+	text-align: center; 
+	font-size: 32px;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#wordImg {
+	padding-left: 50px;
+	padding-top:10px;
+}
+
+#wordBio {
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 16px;	
+}
+
+#WorL {
+	position: absolute;
+	bottom: 15px;
+	left: 83px;
+	padding-top: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+
+#box {height: 285px;}
+
+#box2 {
+	padding-top: 15px;
+	border-bottom: solid #000 1px; 
+	height: 85px; 
+	text-align: center
+}
+
+#word {
+	font-family: times;
+	width: 100%; 
+	text-align: center; 
+	font-size: 24px; 
+	padding: 100px 5px 0;
+}
+
+#guesses {
+	width: 100%; 
+	text-align: center; 
+	font-size: 20px;
+	padding: 65px 10px 0;
+}
+
+#help {
+	font-size: 18px;
+	text-align: center;
+	padding: 0 10px 20px 10px;
+	
+}
+
+.wrapper2 {
+	height: 100px;
+	
+}
+
+#comment { 
+	text-align: center;
+}
+
+#letterUsed {
+	font-size: 20px; 
+	padding-top: 10px;
+}
+
+footer {
+	overflow: auto;
+	padding: 2px 0;
+	background-image: url(../images/footbk.jpg);
+	height: 34px;
+	text-align: center;
+}
+
+.checkbox {
+	font-family: Times;
+	padding-top: 10px;
+}
+
+h4 {
+	font-size: 18px;
+	padding-bottom: 4px
+}
+
+h5 {
+	font-size: 10px;
+}
+

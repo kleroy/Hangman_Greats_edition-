@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+  </head>
+  <body id="body">
+    
+    <!-- The top info of game-->
+    <header>
+      <div class="wrapper">
+      <img src="assets/images/mylogo.png" id="logo">
+      </div>
+    </header>
+    
+    <!-- where the magic happens -->
+    <main class="theGame">
+      
+      <!-- holds the info that is hidden-->
+      <section id="info">
+        <div id="name">
+        </div>
+        <div id="">
+         <img id="wordImg" src="">
+        </div>
+        <div id="wordBio"> 
+        </div>
+        <div id="WorL">
+        </div>
+
+      </section>
+
+      <section>
+        <div id="wins" class="score float-l txt-center">Wins: 0 - (0%)</div>
+        <div id="losses" class="score float-r txt-center">Losses: 0 - (0%)</div>
+      </section> 
+
+      <!-- Holds Word being Guessed -->
+      <section id="box" class="">
+        <div id="guesses"></div>
+        <div id="word"></div>
+      </section>
+      
+      <!-- holds messages. hints etc... -->
+      <section class="wrapper2">
+        <div id="help"></div>
+        <div id="comment"></div> 
+      </section>
+      
+      <!-- holds letters guessed. -->
+      <section id="box2">
+        <h3>Letters Used:</h3>
+        <div id="letterUsed"></div>
+      </section>    
+    </main>
+
+
+    <!-- will hold copyright stuff and click to play -->
+    <footer>
+    <h4 class="start">Hit a key to start the game & use a dash for space</h4>
+    <h5 class="signOff">©Copyright 2017 - Karl Leroy Designs</h5></footer>
+    <div class="checkbox">
+      <input type="checkbox" onclick="game.lobster()" name="lobster" id="lobster" value=""> -Lobster
+    </div>
+    <audio id="jamz">
+      <source src="" type="audio/mpeg">
+        Sorry no good vibes for you!
+      </audio>
+
+  <script src="assets/javascript/game.js"></script>
+  
+  </body>
+</html>
